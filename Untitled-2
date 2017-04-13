@@ -1,0 +1,8 @@
+data Two a b =
+    Two a b
+    deriving (Eq, Show)
+
+data Or a b =
+    First a
+    | Second b
+    deriving (Eq, Show)
